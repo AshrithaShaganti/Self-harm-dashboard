@@ -1,0 +1,290 @@
+# 🛰️ Self-Harm Trend Forecasting & Risk Detection Dashboard
+
+An AI-powered government intelligence and intervention dashboard for detecting, analyzing, and forecasting self-harm risk trends using Natural Language Processing (NLP), Machine Learning, Explainable AI (XAI), and predictive analytics. Built with Streamlit for interactive visualization and decision support.
+
+---
+
+## 📌 Project Overview
+
+This project provides a centralized command center for:
+
+* Detecting self-harm risk from social media posts and text messages.
+* Forecasting national-level risk trends.
+* Generating policy recommendations based on risk levels.
+* Explaining model decisions through Explainable AI techniques.
+* Monitoring simulated real-time intelligence streams.
+
+The system combines machine learning, NLP, sentiment analysis, risk forecasting, and interactive visual analytics into a single dashboard.
+
+---
+
+## 🚀 Features
+
+### 📊 National Risk Forecasting
+
+* Historical risk trend visualization
+* Future risk forecasting
+* Forecast uncertainty intervals
+* Interactive Plotly charts
+
+### 🔍 NLP-Based Risk Detection
+
+* Text classification into:
+
+  * Low Risk
+  * Medium Risk
+  * High Risk
+* Emotion detection
+* Sentiment analysis
+
+### 🧠 Explainable AI (XAI)
+
+* Highlights important risk-indicating words
+* Displays top contributing keywords
+* Improves transparency of model predictions
+
+### 📡 Real-Time Processing Simulation
+
+Pipeline stages include:
+
+1. Raw Data Collection
+2. Deduplication & Filtering
+3. NLP Summarization
+4. Vectorization & Model Inference
+
+### 🏛 Policy Recommendation Engine
+
+Generates intervention strategies based on current national risk index levels.
+
+### 📈 Live Intelligence Feed
+
+Displays incoming risk signals with:
+
+* Risk level
+* Emotion category
+* Text preview
+
+---
+
+## 🏗️ Project Structure
+
+```text
+project/
+│
+├── app.py
+│
+├── src/
+│   ├── nlp_engine.py
+│   ├── risk_engine.py
+│   └── explainability.py
+│
+├── models/
+│   ├── rf_model.pkl
+│   └── vectorizer.pkl
+│
+├── data/
+│   └── processed_social_posts.csv
+│
+├── requirements.txt
+│
+└── README.md
+```
+
+---
+
+## 🧰 Technologies Used
+
+### Frontend
+
+* Streamlit
+
+### Data Processing
+
+* Pandas
+* NumPy
+
+### Machine Learning
+
+* Scikit-Learn
+* Random Forest Classifier
+* TF-IDF Vectorization
+
+### Visualization
+
+* Plotly
+* Plotly Express
+
+### Explainable AI
+
+* Feature Importance Analysis
+* Keyword Highlighting
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/self-harm-risk-dashboard.git
+
+cd self-harm-risk-dashboard
+```
+
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+Activate:
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+#### Linux / Mac
+
+```bash
+source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
+streamlit run app.py
+```
+
+The dashboard will launch at:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## 📂 Required Files
+
+Before running the project, ensure the following files exist:
+
+### Models
+
+```text
+models/
+├── rf_model.pkl
+└── vectorizer.pkl
+```
+
+### Dataset
+
+```text
+data/
+└── processed_social_posts.csv
+```
+
+---
+
+## 📝 Example Input
+
+```text
+I just can't take this pressure anymore.
+Everything feels hopeless and dark.
+```
+
+### Sample Output
+
+```text
+Risk Level: High Risk
+
+Detected Emotion: Sadness
+
+Important Keywords:
+- pressure
+- hopeless
+- dark
+```
+
+---
+
+## 📊 Dashboard Components
+
+### Top Metrics
+
+* Signals Processed
+* Model Accuracy
+* National Risk Index
+* Average Sentiment Score
+* Forecast RMSE
+
+### Forecasting Panel
+
+* Historical Trends
+* Future Predictions
+* Confidence Intervals
+
+### NLP Analysis Interface
+
+* Text Input
+* Risk Classification
+* Emotion Detection
+* Explainability Module
+
+### Intelligence Layer
+
+* Automated Recommendations
+* Policy Suggestions
+
+### Live Intercept Stream
+
+* Recent Risk Signals
+* Emotional Context
+* Risk Categories
+
+---
+
+## 🔮 Future Improvements
+
+* Deep Learning Models (BERT/RoBERTa)
+* Real-time Social Media API Integration
+* Geographical Risk Heatmaps
+* Multilingual Support
+* Alert Notification System
+* Federated Learning for Privacy Preservation
+* Advanced Explainability using SHAP and LIME
+
+---
+
+## 📚 Research Areas
+
+* Natural Language Processing
+* Mental Health Analytics
+* Explainable Artificial Intelligence (XAI)
+* Time Series Forecasting
+* Social Media Intelligence
+* Public Health Monitoring
+
+---
+
+## ⚠️ Disclaimer
+
+This project is developed for educational, research, and analytical purposes only. It should not be used as a substitute for professional mental health diagnosis or intervention. Predictions generated by the system are probabilistic and should be reviewed by qualified professionals before making critical decisions.
+
+---
+
+## 👩‍💻 Author
+
+**Ashritha**
+
+Computer Science & Engineering Student
+
+AI • Machine Learning • NLP • Data Analytics
