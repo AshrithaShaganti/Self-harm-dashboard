@@ -281,9 +281,9 @@ This project is developed for educational, research, and analytical purposes onl
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 Authors
 
-**Ashritha**
+**Ashritha, Amulya**
 
 Computer Science & Engineering Student
 
