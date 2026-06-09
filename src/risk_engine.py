@@ -36,7 +36,7 @@ def forecast_risk(daily_df, years=5):
     yearly.set_index('date', inplace=True)
 
     # IMPORTANT: national signal should be averaged over the year for scaling
-    yearly_series = yearly['risk_index'].resample('Y').mean()
+    yearly_series = yearly['risk_index'].resample('YE').mean()
 
     # If too few years exist → fallback
     if len(yearly_series) < 3:
